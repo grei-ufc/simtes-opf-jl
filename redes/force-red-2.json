@@ -1,0 +1,581 @@
+{
+    "directed": false,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "name": 0,
+            "voltage_level": "medium voltage",
+            "color": "rgb(31, 119, 180)",
+            "active_power": 0.0,
+            "reactive_power": 0.0,
+            "id": 0
+        },
+        {
+            "name": 1,
+            "voltage_level": "medium voltage",
+            "color": "rgb(31, 119, 180)",
+            "active_power": 0.0,
+            "reactive_power": 0.0,
+            "id": 1
+        },
+        {
+            "name": 2,
+            "voltage_level": "medium voltage",
+            "color": "rgb(31, 119, 180)",
+            "active_power": 0.0,
+            "reactive_power": 0.0,
+            "id": 2
+        },
+        {
+            "name": 3,
+            "voltage_level": "medium voltage",
+            "color": "rgb(31, 119, 180)",
+            "active_power": 0.0,
+            "reactive_power": 0.0,
+            "id": 3
+        },
+        {
+            "name": 4,
+            "voltage_level": "medium voltage",
+            "color": "rgb(31, 119, 180)",
+            "active_power": 0.0,
+            "reactive_power": 0.0,
+            "id": 4
+        },
+        {
+            "name": 5,
+            "voltage_level": "medium voltage",
+            "color": "rgb(31, 119, 180)",
+            "active_power": 0.0,
+            "reactive_power": 0.0,
+            "id": 5
+        },
+        {
+            "name": 6,
+            "color": "rgb(255, 127, 14)",
+            "voltage_level": "low voltage",
+            "medium_voltage_conn_node": 2,
+            "active_power": 0.726,
+            "reactive_power": 0.726,
+            "phase": "a",
+            "id": 6
+        },
+        {
+            "name": 7,
+            "color": "rgb(255, 127, 14)",
+            "voltage_level": "low voltage",
+            "medium_voltage_conn_node": 2,
+            "active_power": 1.296,
+            "reactive_power": 1.296,
+            "phase": "b",
+            "id": 7
+        },
+        {
+            "name": 8,
+            "color": "rgb(255, 127, 14)",
+            "voltage_level": "low voltage",
+            "medium_voltage_conn_node": 2,
+            "active_power": 1.083,
+            "reactive_power": 1.083,
+            "phase": "b",
+            "id": 8
+        },
+        {
+            "name": 9,
+            "color": "rgb(255, 127, 14)",
+            "voltage_level": "low voltage",
+            "medium_voltage_conn_node": 2,
+            "active_power": 0.836,
+            "reactive_power": 0.836,
+            "phase": "b",
+            "id": 9
+        },
+        {
+            "name": 10,
+            "color": "rgb(255, 127, 14)",
+            "voltage_level": "low voltage",
+            "medium_voltage_conn_node": 3,
+            "active_power": 1.05,
+            "reactive_power": 1.05,
+            "phase": "b",
+            "id": 10
+        },
+        {
+            "name": 11,
+            "color": "rgb(255, 127, 14)",
+            "voltage_level": "low voltage",
+            "medium_voltage_conn_node": 3,
+            "active_power": 1.25,
+            "reactive_power": 1.25,
+            "phase": "a",
+            "id": 11
+        },
+        {
+            "name": 12,
+            "color": "rgb(255, 127, 14)",
+            "voltage_level": "low voltage",
+            "medium_voltage_conn_node": 3,
+            "active_power": 1.056,
+            "reactive_power": 1.056,
+            "phase": "a",
+            "id": 12
+        },
+        {
+            "name": 13,
+            "color": "rgb(255, 127, 14)",
+            "voltage_level": "low voltage",
+            "medium_voltage_conn_node": 3,
+            "active_power": 1.118,
+            "reactive_power": 1.118,
+            "phase": "b",
+            "id": 13
+        },
+        {
+            "name": 14,
+            "color": "rgb(255, 127, 14)",
+            "voltage_level": "low voltage",
+            "medium_voltage_conn_node": 3,
+            "active_power": 1.106,
+            "reactive_power": 1.106,
+            "phase": "a",
+            "id": 14
+        },
+        {
+            "name": 15,
+            "color": "rgb(255, 127, 14)",
+            "voltage_level": "low voltage",
+            "medium_voltage_conn_node": 3,
+            "active_power": 0.88,
+            "reactive_power": 0.88,
+            "phase": "a",
+            "id": 15
+        },
+        {
+            "name": 16,
+            "color": "rgb(255, 127, 14)",
+            "voltage_level": "low voltage",
+            "medium_voltage_conn_node": 4,
+            "active_power": 1.036,
+            "reactive_power": 1.036,
+            "phase": "c",
+            "id": 16
+        },
+        {
+            "name": 17,
+            "color": "rgb(255, 127, 14)",
+            "voltage_level": "low voltage",
+            "medium_voltage_conn_node": 4,
+            "active_power": 1.18,
+            "reactive_power": 1.18,
+            "phase": "b",
+            "id": 17
+        },
+        {
+            "name": 18,
+            "color": "rgb(255, 127, 14)",
+            "voltage_level": "low voltage",
+            "medium_voltage_conn_node": 4,
+            "active_power": 0.883,
+            "reactive_power": 0.883,
+            "phase": "c",
+            "id": 18
+        },
+        {
+            "name": 19,
+            "color": "rgb(255, 127, 14)",
+            "voltage_level": "low voltage",
+            "medium_voltage_conn_node": 4,
+            "active_power": 0.87,
+            "reactive_power": 0.87,
+            "phase": "b",
+            "id": 19
+        },
+        {
+            "name": 20,
+            "color": "rgb(255, 127, 14)",
+            "voltage_level": "low voltage",
+            "medium_voltage_conn_node": 4,
+            "active_power": 0.957,
+            "reactive_power": 0.957,
+            "phase": "b",
+            "id": 20
+        },
+        {
+            "name": 21,
+            "color": "rgb(255, 127, 14)",
+            "voltage_level": "low voltage",
+            "medium_voltage_conn_node": 4,
+            "active_power": 0.755,
+            "reactive_power": 0.755,
+            "phase": "c",
+            "id": 21
+        },
+        {
+            "name": 22,
+            "color": "rgb(255, 127, 14)",
+            "voltage_level": "low voltage",
+            "medium_voltage_conn_node": 5,
+            "active_power": 0.92,
+            "reactive_power": 0.92,
+            "phase": "b",
+            "id": 22
+        },
+        {
+            "name": 23,
+            "color": "rgb(255, 127, 14)",
+            "voltage_level": "low voltage",
+            "medium_voltage_conn_node": 5,
+            "active_power": 0.83,
+            "reactive_power": 0.83,
+            "phase": "b",
+            "id": 23
+        },
+        {
+            "name": 24,
+            "color": "rgb(255, 127, 14)",
+            "voltage_level": "low voltage",
+            "medium_voltage_conn_node": 5,
+            "active_power": 1.036,
+            "reactive_power": 1.036,
+            "phase": "a",
+            "id": 24
+        },
+        {
+            "name": 25,
+            "color": "rgb(255, 127, 14)",
+            "voltage_level": "low voltage",
+            "medium_voltage_conn_node": 5,
+            "active_power": 0.714,
+            "reactive_power": 0.714,
+            "phase": "c",
+            "id": 25
+        },
+        {
+            "name": 26,
+            "color": "rgb(255, 127, 14)",
+            "voltage_level": "low voltage",
+            "medium_voltage_conn_node": 5,
+            "active_power": 1.276,
+            "reactive_power": 1.276,
+            "phase": "a",
+            "id": 26
+        },
+        {
+            "name": 27,
+            "color": "rgb(255, 127, 14)",
+            "voltage_level": "low voltage",
+            "medium_voltage_conn_node": 5,
+            "active_power": 0.906,
+            "reactive_power": 0.906,
+            "phase": "a",
+            "id": 27
+        }
+    ],
+    "links": [
+        {
+            "name": "Section_0_1",
+            "type": "line",
+            "length": 0.512,
+            "switch": "sw_1",
+            "source": 0,
+            "target": 1
+        },
+        {
+            "name": "Section_1_2",
+            "type": "line",
+            "length": 0.537,
+            "switch": null,
+            "source": 1,
+            "target": 2
+        },
+        {
+            "name": "Section_2_3",
+            "type": "line",
+            "length": 0.553,
+            "switch": null,
+            "source": 2,
+            "target": 3
+        },
+        {
+            "name": "Section_2_5",
+            "type": "line",
+            "length": 0.39,
+            "switch": null,
+            "source": 2,
+            "target": 5
+        },
+        {
+            "name": "Section_2_6",
+            "type": "transformer",
+            "switch": null,
+            "source": 2,
+            "target": 6
+        },
+        {
+            "name": "Section_3_4",
+            "type": "line",
+            "length": 0.141,
+            "switch": null,
+            "source": 3,
+            "target": 4
+        },
+        {
+            "name": "Section_3_10",
+            "type": "transformer",
+            "switch": null,
+            "source": 3,
+            "target": 10
+        },
+        {
+            "name": "Section_4_16",
+            "type": "transformer",
+            "switch": null,
+            "source": 4,
+            "target": 16
+        },
+        {
+            "name": "Section_5_22",
+            "type": "transformer",
+            "switch": null,
+            "source": 5,
+            "target": 22
+        },
+        {
+            "name": "Section_6_7",
+            "type": "line",
+            "length": 0.038,
+            "switch": null,
+            "source": 6,
+            "target": 7
+        },
+        {
+            "name": "Section_7_8",
+            "type": "line",
+            "length": 0.026,
+            "switch": null,
+            "source": 7,
+            "target": 8
+        },
+        {
+            "name": "Section_7_9",
+            "type": "line",
+            "length": 0.034,
+            "switch": null,
+            "source": 7,
+            "target": 9
+        },
+        {
+            "name": "Section_10_11",
+            "type": "line",
+            "length": 0.096,
+            "switch": null,
+            "source": 10,
+            "target": 11
+        },
+        {
+            "name": "Section_10_12",
+            "type": "line",
+            "length": 0.017,
+            "switch": null,
+            "source": 10,
+            "target": 12
+        },
+        {
+            "name": "Section_10_13",
+            "type": "line",
+            "length": 0.04,
+            "switch": null,
+            "source": 10,
+            "target": 13
+        },
+        {
+            "name": "Section_10_14",
+            "type": "line",
+            "length": 0.075,
+            "switch": null,
+            "source": 10,
+            "target": 14
+        },
+        {
+            "name": "Section_14_15",
+            "type": "line",
+            "length": 0.095,
+            "switch": null,
+            "source": 14,
+            "target": 15
+        },
+        {
+            "name": "Section_16_17",
+            "type": "line",
+            "length": 0.068,
+            "switch": null,
+            "source": 16,
+            "target": 17
+        },
+        {
+            "name": "Section_16_18",
+            "type": "line",
+            "length": 0.02,
+            "switch": null,
+            "source": 16,
+            "target": 18
+        },
+        {
+            "name": "Section_18_19",
+            "type": "line",
+            "length": 0.052,
+            "switch": null,
+            "source": 18,
+            "target": 19
+        },
+        {
+            "name": "Section_18_20",
+            "type": "line",
+            "length": 0.042,
+            "switch": null,
+            "source": 18,
+            "target": 20
+        },
+        {
+            "name": "Section_20_21",
+            "type": "line",
+            "length": 0.06,
+            "switch": null,
+            "source": 20,
+            "target": 21
+        },
+        {
+            "name": "Section_22_23",
+            "type": "line",
+            "length": 0.03,
+            "switch": null,
+            "source": 22,
+            "target": 23
+        },
+        {
+            "name": "Section_23_24",
+            "type": "line",
+            "length": 0.069,
+            "switch": null,
+            "source": 23,
+            "target": 24
+        },
+        {
+            "name": "Section_24_25",
+            "type": "line",
+            "length": 0.02,
+            "switch": null,
+            "source": 24,
+            "target": 25
+        },
+        {
+            "name": "Section_24_26",
+            "type": "line",
+            "length": 0.021,
+            "switch": null,
+            "source": 24,
+            "target": 26
+        },
+        {
+            "name": "Section_26_27",
+            "type": "line",
+            "length": 0.063,
+            "switch": null,
+            "source": 26,
+            "target": 27
+        }
+    ],
+    "transformers": [
+        {
+            "name": "trafo_2_6",
+            "source": 2,
+            "target": 6,
+            "power": 45.0,
+            "nodes": [
+                6,
+                7,
+                8,
+                9
+            ],
+            "bess_nodes": [
+                9
+            ],
+            "prosumer_bess_nodes": [
+                6
+            ],
+            "dg_nodes": [
+                7
+            ]
+        },
+        {
+            "name": "trafo_3_10",
+            "source": 3,
+            "target": 10,
+            "power": 45.0,
+            "nodes": [
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "bess_nodes": [
+                15
+            ],
+            "prosumer_bess_nodes": [
+                13
+            ],
+            "dg_nodes": [
+                11
+            ]
+        },
+        {
+            "name": "trafo_4_16",
+            "source": 4,
+            "target": 16,
+            "power": 45.0,
+            "nodes": [
+                16,
+                17,
+                18,
+                19,
+                20,
+                21
+            ],
+            "bess_nodes": [
+                21
+            ],
+            "prosumer_bess_nodes": [
+                18
+            ],
+            "dg_nodes": [
+                17
+            ]
+        },
+        {
+            "name": "trafo_5_22",
+            "source": 5,
+            "target": 22,
+            "power": 75.0,
+            "nodes": [
+                22,
+                23,
+                24,
+                25,
+                26,
+                27
+            ],
+            "bess_nodes": [
+                27
+            ],
+            "prosumer_bess_nodes": [
+                23
+            ],
+            "dg_nodes": [
+                23
+            ]
+        }
+    ]
+}
