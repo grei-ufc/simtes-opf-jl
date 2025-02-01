@@ -7,6 +7,8 @@ DAYS = 30
 
 load_df = CSV.read(joinpath(GRID_DATA_PATH, "Load.csv"), DataFrame, delim=";")[139:243, :]
 load_profile_df = CSV.read(joinpath(GRID_DATA_PATH, "LoadProfile.csv"), DataFrame, delim=";")
+gen_df = CSV.read(joinpath(GRID_DATA_PATH, "RES.csv"), DataFrame, delim=";")[135:147, :]
+gen_profile_df = CSV.read(joinpath(GRID_DATA_PATH, "RESProfile.csv"), DataFrame, delim=";")
 
 """
     get_load_data(load_index::Union{Nothing, Int} = nothing)
@@ -52,4 +54,30 @@ function get_load_data(load_index::Union{Nothing, Int} = nothing)
 
 end
 
+function get_gen_data(gen_index::Union{Nothing, Int} = nothing)
+    global gen_df
+    global gen_profile_df
+
+    month_delta = 24 * 4 * 30 * 1
+
+    if gen_index !== nothing
+        gen = gen_df[gen_index % 12 + 1, :]
+        start_day = 15 * 24 * 4 + month_delta
+    else
+        gen_index = rand(1:size(gen_df)[2])
+        gen = gen_df[gen_index, :]
+        start_day = rand(0:30) * 24 * 4 + month_delta
+    end
+
+    end_day = start_day + 30 * 24 * 4
+    
+    gen_p_data = gen_profile_df[start_day:end_day, gen.profile]
+    gen_p_data = (gen_p_data[1:(24 * 4 * DAYS)])
+
+    gens_df = Dict("pgen" => gen_p_data)
+    gens_df = DataFrame(gens_df)
+
+end
+
 get_load_data()
+get_gen_data()
