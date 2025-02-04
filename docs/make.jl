@@ -18,11 +18,11 @@ makedocs(;
   doctest = true,
   linkcheck = false, # Rely on Lint.yml/lychee for the links
   authors = "Luiz Freire  <la.freire96@gmail.com>, Carlos Neto <email>, Lucas Melo <email>",
-  repo = "https://github.com/abelsiqueira/SimtesOPF.jl/blob/{commit}{path}#{line}",
+  repo = "https://github.com/grei-ufc/SimtesOPF.jl/blob/{commit}{path}#{line}",
   sitename = "SimtesOPF.jl",
   format = Documenter.HTML(;
     prettyurls = true,
-    canonical = "https://abelsiqueira.github.io/SimtesOPF.jl",
+    canonical = "https://grei-ufc.github.io/SimtesOPF.jl",
     assets = ["assets/style.css"],
   ),
   pages = [
