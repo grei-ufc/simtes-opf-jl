@@ -30,4 +30,4 @@ makedocs(;
   ],
 )
 
-deploydocs(; repo = "github.com/grei-ufc/simtes-opf-jl", push_preview = false)
+deploydocs(; repo = "github.com/grei-ufc/simtes-opf-jl", push_preview = true)
