@@ -8,4 +8,4 @@ times_ = collect(Time(0):Minute(15):Time(23, 45))
 
 mv_nodes_qtd = 7
 tx_bess_prosumers = 0.3
-tx_bess_dso 0.4
+tx_bess_dso = 0.4
