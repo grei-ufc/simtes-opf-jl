@@ -1,9 +1,5 @@
-module LoadData
-
 using DataFrames
 using CSV
-
-export get_load_data, get_gen_data
 
 GRID_DATA_PATH = "1-MVLV-urban-5.303-1-no_sw"
 DAYS = 30
@@ -91,7 +87,5 @@ function get_gen_data(gen_index::Union{Nothing, Int} = nothing)
 
     gens_df = Dict("pgen" => gen_p_data)
     gens_df = DataFrame(gens_df)
-
-end
 
 end
