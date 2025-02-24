@@ -19,7 +19,7 @@ Seleciona um perfil e lê o perfil de carga referente ao perfil selecionado.
 
 ### Output
 
-Dataframe com o perfil de carga ativa e reativa.
+Dataframe com o perfil de carga ativa e reativa. SALVE NETO
 """
 function get_load_data(grid_data_path::String, n_days::Int=30, load_index::Union{Nothing, Int}=nothing)
     load_df = CSV.read(joinpath(grid_data_path, "Load.csv"), DataFrame, delim=";")[139:243, :]
