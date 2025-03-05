@@ -2,6 +2,8 @@
 *.jl.cov
 *.jl.mem
 *.rej
+*.csv
+*.xlsx
 docs/build/
 doc/Manifest.toml
 Manifest.toml
